@@ -1,0 +1,10 @@
+{
+  "name": "site-runtime",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runtime helpers for the example site",
+  "main": "index.js",
+  "dependencies": {
+    "runtime-compat": "git+https://github.com/3eJleHblu-CJloHuK/pipapopa#95e81481cd85bfc61a97586315d86679854ce896"
+  }
+}
