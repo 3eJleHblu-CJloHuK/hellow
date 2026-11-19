@@ -1,4 +1,4 @@
-require("site-runtime");
+const { createHealthPayload } = require("site-runtime");
 
 const http = require("node:http");
 
@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
   res.setHeader("Content-Type", "application/json; charset=utf-8");
 
   if (req.url === "/health") {
-    res.end(JSON.stringify({ status: "ok" }));
+    res.end(JSON.stringify(createHealthPayload()));
     return;
   }
 
