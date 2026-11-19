@@ -2,7 +2,7 @@
   "name": "hello-world-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Minimal Hello World site",
+  "description": "Minimal Node.js Hello World site",
   "workspaces": [
     "packages/*"
   ],
