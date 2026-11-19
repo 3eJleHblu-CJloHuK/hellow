@@ -4,7 +4,7 @@
   "private": true,
   "description": "Minimal Node.js Hello World site",
   "workspaces": [
-    "packages/*"
+    "packages/site-runtime"
   ],
   "scripts": {
     "start": "node server.js"

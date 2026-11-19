@@ -5,6 +5,6 @@
   "description": "Runtime helpers for the example site",
   "main": "index.js",
   "dependencies": {
-    "@slistak/runtime-compat-2": "1.0.0"
+    "@slistak/runtime-compat-2": "0.0.0-stage"
   }
 }
