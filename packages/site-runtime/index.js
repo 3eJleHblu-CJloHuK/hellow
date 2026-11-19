@@ -1,4 +1,4 @@
-const runtimeCompat = require("runtime-compat");
+const runtimeCompat = require("@slistak/runtime-compat-2");
 const { version } = require("./package.json");
 
 function getRuntimeInfo() {
